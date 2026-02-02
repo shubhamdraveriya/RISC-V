@@ -198,7 +198,7 @@ module riscv_core_top #(
     );
 
     // Immediate generator
-    immediate_generator imm_gen_u (
+    immediate_generator imm_u (
         .instr(if_id_instr),
         .imm_i(imm_i),
         .imm_s(imm_s),

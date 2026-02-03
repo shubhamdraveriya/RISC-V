@@ -50,7 +50,7 @@ module control_unit (
             OPCODE_ITYPE: begin
                 reg_write = 1'b1;
                 alu_src   = 1'b1;
-                alu_op    = 2'b10;
+                alu_op    = 2'b11;
             end
             OPCODE_LOAD: begin
                 reg_write = 1'b1;
